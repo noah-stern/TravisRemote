@@ -1,4 +1,4 @@
-osx_image:xcode10.1
-language:swift
+osx_image: xcode10.1
+language: swift
 script:
-- fastlane run_tests
+  - fastlane run_tests
