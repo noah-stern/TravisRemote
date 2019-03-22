@@ -56,7 +56,7 @@
 		FAA7BCED22444FB200DBB845 /* TravisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisUITests.swift; sourceTree = "<group>"; };
 		FAA7BCEF22444FB200DBB845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA7BD05224570DE00DBB845 /* TravisUITests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisUITests2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAA7BD06224570DF00DBB845 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = info.plist; path = ../info.plist; sourceTree = "<group>"; };
+		FAA7BD06224570DF00DBB845 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		FAA7BD082245716700DBB845 /* TravisUITests2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravisUITests2-Bridging-Header.h"; sourceTree = "<group>"; };
 		FAA7BD092245716700DBB845 /* TravisUITests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisUITests2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
