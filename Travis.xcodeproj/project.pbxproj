@@ -14,6 +14,7 @@
 		FAA7BCD822444FB200DBB845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA7BCD622444FB200DBB845 /* LaunchScreen.storyboard */; };
 		FAA7BCE322444FB200DBB845 /* TravisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7BCE222444FB200DBB845 /* TravisTests.swift */; };
 		FAA7BCEE22444FB200DBB845 /* TravisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7BCED22444FB200DBB845 /* TravisUITests.swift */; };
+		FAA7BD0A2245716700DBB845 /* TravisUITests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7BD092245716700DBB845 /* TravisUITests2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +26,13 @@
 			remoteInfo = Travis;
 		};
 		FAA7BCEA22444FB200DBB845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA7BCC222444FB100DBB845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA7BCC922444FB100DBB845;
+			remoteInfo = Travis;
+		};
+		FAA7BCFD224570DE00DBB845 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FAA7BCC222444FB100DBB845 /* Project object */;
 			proxyType = 1;
@@ -47,6 +55,10 @@
 		FAA7BCE922444FB200DBB845 /* TravisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA7BCED22444FB200DBB845 /* TravisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisUITests.swift; sourceTree = "<group>"; };
 		FAA7BCEF22444FB200DBB845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA7BD05224570DE00DBB845 /* TravisUITests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisUITests2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA7BD06224570DF00DBB845 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = info.plist; path = ../info.plist; sourceTree = "<group>"; };
+		FAA7BD082245716700DBB845 /* TravisUITests2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravisUITests2-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAA7BD092245716700DBB845 /* TravisUITests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisUITests2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAA7BD00224570DE00DBB845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +99,7 @@
 				FAA7BCCC22444FB100DBB845 /* Travis */,
 				FAA7BCE122444FB200DBB845 /* TravisTests */,
 				FAA7BCEC22444FB200DBB845 /* TravisUITests */,
+				FAA7BD072245712000DBB845 /* TravisUITests2 */,
 				FAA7BCCB22444FB100DBB845 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +110,7 @@
 				FAA7BCCA22444FB100DBB845 /* Travis.app */,
 				FAA7BCDE22444FB200DBB845 /* TravisTests.xctest */,
 				FAA7BCE922444FB200DBB845 /* TravisUITests.xctest */,
+				FAA7BD05224570DE00DBB845 /* TravisUITests2.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +144,16 @@
 				FAA7BCEF22444FB200DBB845 /* Info.plist */,
 			);
 			path = TravisUITests;
+			sourceTree = "<group>";
+		};
+		FAA7BD072245712000DBB845 /* TravisUITests2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAA7BD06224570DF00DBB845 /* info.plist */,
+				FAA7BD092245716700DBB845 /* TravisUITests2.swift */,
+				FAA7BD082245716700DBB845 /* TravisUITests2-Bridging-Header.h */,
+			);
+			path = TravisUITests2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +212,24 @@
 			productReference = FAA7BCE922444FB200DBB845 /* TravisUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FAA7BCFB224570DE00DBB845 /* TravisUITests2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA7BD02224570DE00DBB845 /* Build configuration list for PBXNativeTarget "TravisUITests2" */;
+			buildPhases = (
+				FAA7BCFE224570DE00DBB845 /* Sources */,
+				FAA7BD00224570DE00DBB845 /* Frameworks */,
+				FAA7BD01224570DE00DBB845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA7BCFC224570DE00DBB845 /* PBXTargetDependency */,
+			);
+			name = TravisUITests2;
+			productName = TravisUITests;
+			productReference = FAA7BD05224570DE00DBB845 /* TravisUITests2.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +251,10 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = FAA7BCC922444FB100DBB845;
 					};
+					FAA7BCFB224570DE00DBB845 = {
+						LastSwiftMigration = 1010;
+						TestTargetID = FAA7BCC922444FB100DBB845;
+					};
 				};
 			};
 			buildConfigurationList = FAA7BCC522444FB100DBB845 /* Build configuration list for PBXProject "Travis" */;
@@ -220,6 +273,7 @@
 				FAA7BCC922444FB100DBB845 /* Travis */,
 				FAA7BCDD22444FB200DBB845 /* TravisTests */,
 				FAA7BCE822444FB200DBB845 /* TravisUITests */,
+				FAA7BCFB224570DE00DBB845 /* TravisUITests2 */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +297,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FAA7BCE722444FB200DBB845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA7BD01224570DE00DBB845 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +338,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAA7BCFE224570DE00DBB845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA7BD0A2245716700DBB845 /* TravisUITests2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +358,11 @@
 			isa = PBXTargetDependency;
 			target = FAA7BCC922444FB100DBB845 /* Travis */;
 			targetProxy = FAA7BCEA22444FB200DBB845 /* PBXContainerItemProxy */;
+		};
+		FAA7BCFC224570DE00DBB845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA7BCC922444FB100DBB845 /* Travis */;
+			targetProxy = FAA7BCFD224570DE00DBB845 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -546,6 +620,51 @@
 			};
 			name = Release;
 		};
+		FAA7BD03224570DE00DBB845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z32424BYXW;
+				INFOPLIST_FILE = info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Earnin.TravisUITests2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TravisUITests2/TravisUITests2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travis;
+			};
+			name = Debug;
+		};
+		FAA7BD04224570DE00DBB845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z32424BYXW;
+				INFOPLIST_FILE = info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Earnin.TravisUITests2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TravisUITests2/TravisUITests2-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Travis;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +700,15 @@
 			buildConfigurations = (
 				FAA7BCF922444FB200DBB845 /* Debug */,
 				FAA7BCFA22444FB200DBB845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA7BD02224570DE00DBB845 /* Build configuration list for PBXNativeTarget "TravisUITests2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA7BD03224570DE00DBB845 /* Debug */,
+				FAA7BD04224570DE00DBB845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
