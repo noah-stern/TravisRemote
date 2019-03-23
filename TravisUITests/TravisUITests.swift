@@ -29,6 +29,7 @@ class TravisUITests: XCTestCase {
     
     func testFail() {
         app.launch()
+        app.launchArguments.append(“--uitesting”)
         XCTAssert(app.buttons["Button2"].exists)
     }
 
