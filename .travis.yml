@@ -4,6 +4,7 @@ xcode_sdk: iphonesimulator12.1
 osx_image: xcode10.1
 language: swift
 install:
+ - rm Gemfile.lock
  - bundle install
 script:
    - fastlane hello
