@@ -675,7 +675,7 @@
 				FAA7BCF122444FB200DBB845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FAA7BCF222444FB200DBB845 /* Build configuration list for PBXNativeTarget "Travis" */ = {
 			isa = XCConfigurationList;
@@ -684,7 +684,7 @@
 				FAA7BCF422444FB200DBB845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FAA7BCF522444FB200DBB845 /* Build configuration list for PBXNativeTarget "TravisTests" */ = {
 			isa = XCConfigurationList;
@@ -693,7 +693,7 @@
 				FAA7BCF722444FB200DBB845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FAA7BCF822444FB200DBB845 /* Build configuration list for PBXNativeTarget "TravisUITests" */ = {
 			isa = XCConfigurationList;
@@ -702,7 +702,7 @@
 				FAA7BCFA22444FB200DBB845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FAA7BD02224570DE00DBB845 /* Build configuration list for PBXNativeTarget "TravisUITests2" */ = {
 			isa = XCConfigurationList;
@@ -711,7 +711,7 @@
 				FAA7BD04224570DE00DBB845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
