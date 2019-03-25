@@ -8,4 +8,4 @@ install:
   - bundle install
 script:
   - fastlane hello
-  - xcodebuild -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" -destination "platform=iOS Simulator,OS=latest,name=iPhone 7" test -only-testing:TravisUITests/TravisUITests | xcpretty
+  - xcodebuild -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" -destination "platform=iOS Simulator,OS=latest,name=iPhone 7" test -only-testing:TravisUITests/TravisUITests | xcpretty || exit 1
