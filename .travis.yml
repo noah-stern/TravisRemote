@@ -11,4 +11,4 @@ env:
   - TEST_SUITE=TravisUITests2
 script:
   - fastlane hello
-  - fastlane scan --scheme "$TEST_SUITE"
+  - xcodebuild -project “$TRAVIS_XCODE_PROJECT” -scheme “$TRAVIS_XCODE_SCHEME” -sdk “$TRAVIS_XCODE_SDK” -destination “platform=iOS Simulator,OS=latest,name=iPhone 7" test-without-building -only-testing:“TravisUITests”
