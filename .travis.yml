@@ -10,4 +10,4 @@ env:
   - TEST_SUITE=TravisUITests/TravisUITests
   - TEST_SUITE=TravisUITests2/TravisUITests2
 script:
-  - set -o pipefail && xcodebuild -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" -destination "platform=iOS Simulator,OS=latest,name=iPhone 7" test -only-testing: "$TEST_SUITE" | xcpretty
+  - set -o pipefail && xcodebuild -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" -destination "platform=iOS Simulator,OS=latest,name=iPhone 7" test -only-testing:"$TEST_SUITE" | xcpretty
